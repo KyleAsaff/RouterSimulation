@@ -1,6 +1,5 @@
 /*
  *      Kyle Asaff
- *      CSCI 4171 A3Q1
  *      
  *      Main.java
  *      Generates where to send a packet with a given routing table and packet destination.
