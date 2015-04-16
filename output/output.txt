@@ -1,0 +1,5 @@
+Packet with destination address 192.168.3.1 will be forwarded to 192.168.5.2 out on interface s1 (with flag: network_specific).
+Packet with destination address 192.168.1.1 will be forwarded to - out on interface e0 (with flag: direct).
+Packet with destination address 201.1.2.3 will be forwarded to 192.168.4.2 out on interface s0 (with flag: default).
+Packet with destination address 192.168.3.2 will be forwarded to 192.168.5.2 out on interface s1 (with flag: network_specific).
+Packet with destination address 192.168.2.2 will be forwarded to 192.168.5.2 out on interface s1 (with flag: host_specific).

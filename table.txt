@@ -1,0 +1,9 @@
+Mask			Destination		Next Hop		Flags				Interface
+255.255.255.0	192.168.1.0		-				direct				e0
+255.255.255.0	192.168.2.0		192.168.4.2		network_specific	s0
+255.255.255.0	192.168.3.0		192.168.5.2		network_specific	s1
+255.255.255.0	192.168.4.0		-				direct				s0
+255.255.255.0	192.168.5.0		-				direct				s1
+255.255.255.0	192.168.6.0		192.168.4.2		network_specific	s0
+255.255.255.255	192.168.2.2		192.168.5.2		host_specific		s1
+0.0.0.0			0.0.0.0			192.168.4.2		default				s0
